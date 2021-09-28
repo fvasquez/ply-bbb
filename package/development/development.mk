@@ -18,6 +18,8 @@ define DEVELOPMENT_INSTALL_TARGET_CMDS
 	$(INSTALL) -D -m 0755 $(@D)/i2c-stack.ply $(TARGET_DIR)/root/
 	$(INSTALL) -D -m 0755 $(@D)/opensnoop.ply $(TARGET_DIR)/root/
 	$(INSTALL) -D -m 0755 $(@D)/execsnoop.ply $(TARGET_DIR)/root/
+	$(INSTALL) -D -m 0755 $(@D)/tcp-send-recv.ply $(TARGET_DIR)/root/
+	$(INSTALL) -D -m 0755 $(@D)/heap-allocs.ply $(TARGET_DIR)/root/
 endef
 
 $(eval $(generic-package))
