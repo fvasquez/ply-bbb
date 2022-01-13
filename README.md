@@ -1,6 +1,6 @@
 # ply-bbb
 
-This repo builds an eBPF-friendly Linux kernel and the ply dynamic tracing tool for BeagleBone SBCs. It was meant to accompany the presentation on ["ply: lighweight eBPF tracing"](https://sched.co/lAQF) that I gave at the Embedded Linux Conference on October 28, 2021. See the [slides](https://github.com/fvasquez/ply-bbb/blob/main/ply-lightweight-ebpf-tracing.pdf) for details on how this Linux kernel and rootfs were configured.
+This repo builds an eBPF-friendly Linux kernel and the ply dynamic tracing tool for BeagleBone SBCs. It was meant to accompany the presentation on ["ply: lighweight eBPF tracing"](https://sched.co/lAQF) that I gave at the Embedded Linux Conference on September 28, 2021. See the [slides](https://github.com/fvasquez/ply-bbb/blob/main/ply-lightweight-ebpf-tracing.pdf) for details on how this Linux kernel and rootfs were configured.
 
 ## Getting started
 
